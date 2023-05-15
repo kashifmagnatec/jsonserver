@@ -1,0 +1,294 @@
+{
+  "Genders": [
+    {
+      "id": 1,
+      "GenderName": "Male"
+    },
+    {
+      "id": 2,
+      "GenderName": "Female"
+    },
+    {
+      "id": 3,
+      "GenderName": "Not Completed"
+    },
+    {
+      "id": 4,
+      "GenderName": "Sex Changed To Female"
+    },
+    {
+      "id": 5,
+      "GenderName": "Sex Changed To Male"
+    },
+    {
+      "id": 6,
+      "GenderName": "Undetermined"
+    },
+    {
+      "id": 7,
+      "GenderName": "Undifferentiated"
+    },
+    {
+      "id": 8,
+      "GenderName": "Unknown"
+    }
+  ],
+  "EncouterTypes": [
+    {
+      "id": 1,
+      "EncounterTypeName": "Emergency"
+    },
+    {
+      "id": 2,
+      "EncounterTypeName": "Health Check"
+    },
+    {
+      "id": 3,
+      "EncounterTypeName": "Home Visit"
+    },
+    {
+      "id": 4,
+      "EncounterTypeName": "Mortuary"
+    },
+    {
+      "id": 5,
+      "EncounterTypeName": "Outpatient"
+    }
+  ],
+  "VisityTypes": [
+    {
+      "id": 1,
+      "VisitTypeName": "New Visit"
+    },
+    {
+      "id": 2,
+      "VisitTypeName": "Investigation Visit"
+    },
+    {
+      "id": 3,
+      "VisitTypeName": "Follow Checkup"
+    },
+    {
+      "id": 4,
+      "VisitTypeName": "Walk In"
+    },
+    {
+      "id": 5,
+      "VisitTypeName": "Health Checkup"
+    },
+    {
+      "id": 6,
+      "VisitTypeName": "HHC Visit"
+    },
+    {
+      "id": 7,
+      "VisitTypeName": "Post-Operative Follow Up"
+    },
+    {
+      "id": 8,
+      "VisitTypeName": "ER Visit"
+    },
+    {
+      "id": 9,
+      "VisitTypeName": "Annual Physical"
+    },
+    {
+      "id": 10,
+      "VisitTypeName": "Blood Bank Dopnation"
+    }
+  ],
+  "Priority": [
+    {
+      "PriorityTypeId": 1,
+      "PriorityTypeName": "Routine"
+    },
+    {
+      "PriorityTypeId": 2,
+      "PriorityTypeName": "Stat"
+    },
+    {
+      "PriorityTypeId": 3,
+      "PriorityTypeName": "Urgent"
+    }
+  ],
+  "RestrictedAgeGroup": [
+    {
+      "id": 1,
+      "RestrictedAgeGroupName": "0 Days - 1 Days"
+    },
+    {
+      "id": 2,
+      "RestrictedAgeGroupName": "1Y - 3Y"
+    },
+    {
+      "id": 3,
+      "RestrictedAgeGroupName": "1Y - 6Y"
+    },
+    {
+      "id": 4,
+      "RestrictedAgeGroupName": "1Y - 150Y"
+    },
+    {
+      "id": 5,
+      "RestrictedAgeGroupName": "20Y - 29Y"
+    },
+    {
+      "id": 6,
+      "RestrictedAgeGroupName": "28D - 17Y"
+    },
+    {
+      "id": 7,
+      "RestrictedAgeGroupName": "2M - 1Y"
+    },
+    {
+      "id": 8,
+      "RestrictedAgeGroupName": "30 - 39Y"
+    },
+    {
+      "id": 9,
+      "RestrictedAgeGroupName": "3D - 5D"
+    },
+    {
+      "id": 10,
+      "RestrictedAgeGroupName": "Adolocent (12Y -16Y)"
+    },
+    {
+      "id": 11,
+      "RestrictedAgeGroupName": "ALL"
+    },
+    {
+      "id": 12,
+      "RestrictedAgeGroupName": "Children (2Y - 12Y)"
+    },
+    {
+      "id": 13,
+      "RestrictedAgeGroupName": "INFANT(1M-2Y)"
+    },
+    {
+      "id": 14,
+      "RestrictedAgeGroupName": "Middle Aged Adultry (36Y - 55Y)"
+    },
+    {
+      "id": 15,
+      "RestrictedAgeGroupName": "0D - 6M"
+    },
+    {
+      "id": 16,
+      "RestrictedAgeGroupName": "0Y - 1Y"
+    }
+  ],
+  "MortuaryForm": [
+    {
+      "id": 1,
+      "MortuaryFormName": "A"
+    },
+    {
+      "id": 2,
+      "MortuaryFormName": "B"
+    },
+    {
+      "id": 3,
+      "MortuaryFormName": "C"
+    }
+  ],
+  "Organizations": [
+    {
+      "OrganizationId": 1,
+      "OrganizationName": "Sheikh Zaid Hospital"
+    },
+    {
+      "OrganizationId": 2,
+      "OrganizationName": "Services Hospital"
+    },
+    {
+      "OrganizationId": 3,
+      "OrganizationName": "Jinnah Hospital"
+    }
+  ],
+  "Departments": [
+    {
+      "Code": "14849789",
+      "DepartmentName": "Test 2",
+      "OrganizationId": "Sheikh Zaid Hospital",
+      "OrganizationName": "",
+      "Description": "test description",
+      "DisplayOrder": "4",
+      "Directions": "near pu campus",
+      "PhoneExten": "45676",
+      "ParentDepartmentId": null,
+      "ParentDepartmentName": "",
+      "GenderId": "Male",
+      "GenderName": "",
+      "EncounterTypeId": 0,
+      "EncouterTypeName": "",
+      "PriorityTypeId": 0,
+      "PriorityTypeName": "",
+      "RestrictedAgeGroupId": "1Y - 3Y",
+      "RestrictedAgeGroupName": "",
+      "DepartmentCode": "",
+      "WaitingTimeGreen": 20,
+      "WaitingTimeAmber": 45,
+      "WaitingTimeRed": 60,
+      "ActiveFrom": "2023-05-14",
+      "ActiveTo": "2023-05-14",
+      "CostCode": "",
+      "MortuaryFormId": 0,
+      "MortuaryFormName": "",
+      "IsRegistrationAllowed": true,
+      "IsAdmissionsAllowed": true,
+      "IsEmergencyDepartment": false,
+      "IsDoctorScheduled": true,
+      "IsShowInPatientPortal": false,
+      "IsDayCareDepartment": false,
+      "IsOperatingRoomDepartment": false,
+      "IsLaboratoryDepartment": false,
+      "IsTriagMandatory": false,
+      "IsVitalMandatory": false,
+      "DefaultVitalSign": "",
+      "IsActive": true,
+      "id": 1
+    },
+    {
+      "Code": "11877737",
+      "DepartmentName": "seemabian",
+      "OrganizationId": "Sheikh Zaid Hospital",
+      "OrganizationName": "",
+      "Description": "",
+      "DisplayOrder": "",
+      "Directions": "",
+      "PhoneExten": "",
+      "ParentDepartmentId": null,
+      "ParentDepartmentName": "",
+      "GenderId": "Female",
+      "GenderName": "",
+      "EncounterTypeId": 0,
+      "EncouterTypeName": "",
+      "PriorityTypeId": 0,
+      "PriorityTypeName": "",
+      "RestrictedAgeGroupId": "1Y - 3Y",
+      "RestrictedAgeGroupName": "",
+      "DepartmentCode": "",
+      "WaitingTimeGreen": 20,
+      "WaitingTimeAmber": 45,
+      "WaitingTimeRed": 60,
+      "ActiveFrom": "2023-05-14",
+      "ActiveTo": "2023-05-14",
+      "CostCode": "",
+      "MortuaryFormId": 0,
+      "MortuaryFormName": "",
+      "IsRegistrationAllowed": true,
+      "IsAdmissionsAllowed": true,
+      "IsEmergencyDepartment": false,
+      "IsDoctorScheduled": true,
+      "IsShowInPatientPortal": false,
+      "IsDayCareDepartment": false,
+      "IsOperatingRoomDepartment": false,
+      "IsLaboratoryDepartment": false,
+      "IsTriagMandatory": false,
+      "IsVitalMandatory": false,
+      "DefaultVitalSign": "",
+      "IsActive": true,
+      "id": 2
+    }
+  ]
+}
